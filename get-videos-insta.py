@@ -63,8 +63,9 @@ def get_video_to_upload(user):
     return video_file_name, desc_file_name
 
 def main():
-    users = ["hl.1mp", "sapphicprint", "k_pop._edits._", "kchrated", "ateezstage", "akipeeeeeeee", "_.hii_rixky._", "jihyo.jypt", "_kpop_._addict", "kpopgirls.stan"]
-    download_latest_videos(users)
+    # users = ["hl.1mp", "sapphicprint", "k_pop._edits._", "kchrated", "ateezstage", "akipeeeeeeee", "_.hii_rixky._", "jihyo.jypt", "_kpop_._addict", "kpopgirls.stan"]
+    users = ["onlylesserafimm"]
+    # download_latest_videos(users)
     
     for user in users:
         video_file_name, desc_file_name = get_video_to_upload(user)
